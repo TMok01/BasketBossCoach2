@@ -44,12 +44,23 @@ class ViewControllerCourtView: UIViewController {
         
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+       return 5
+    }
     
     
     
     
     
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! ViewControllerMinutesPlayed
+        nvc.pg3 = pg2
+        nvc.sg3 = sg2
+        nvc.sf3 = sf2
+        nvc.pf3 = pf2
+        nvc.c3 = c2
+    }
     
     
 }

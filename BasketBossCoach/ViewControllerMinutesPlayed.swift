@@ -9,6 +9,17 @@ import UIKit
 
 class ViewControllerMinutesPlayed: UIViewController {
 
+    var pg3 = 0
+    
+    var sg3 = 0
+    
+    var sf3 = 0
+    
+    var pf3 = 0
+    
+    var c3 = 0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +27,10 @@ class ViewControllerMinutesPlayed: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    
+    
+    
+   
 
 }

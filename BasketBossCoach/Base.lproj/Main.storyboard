@@ -65,7 +65,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="THU-zG-bD7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="rostaCell" id="THU-zG-bD7">
                                         <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="THU-zG-bD7" id="a4f-tZ-On6">
@@ -111,6 +111,9 @@
                                     <action selector="submitButt:" destination="uoY-ti-cts" eventType="touchUpInside" id="z9U-zb-SKJ"/>
                                 </connections>
                             </button>
+                            <connections>
+                                <action selector="submitButt:" destination="uoY-ti-cts" id="BD1-sW-e4L"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
