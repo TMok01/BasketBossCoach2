@@ -334,17 +334,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4x-cH-fIV">
-                                <rect key="frame" x="230" y="558" width="141" height="136"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Time played"/>
-                                <connections>
-                                    <segue destination="ZAM-Ek-wxI" kind="show" id="UFz-xp-Jds"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AO-YC-49b">
-                                <rect key="frame" x="39" y="558" width="141" height="136"/>
+                                <rect key="frame" x="126" y="546" width="141" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Subs"/>
@@ -368,44 +359,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NWz-GR-BBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1849.6183206106869" y="1404.9295774647887"/>
-        </scene>
-        <!--View Controller Minutes Played-->
-        <scene sceneID="Ya5-bk-reW">
-            <objects>
-                <viewController id="ZAM-Ek-wxI" customClass="ViewControllerMinutesPlayed" customModule="BasketBossCoach" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Uph-62-55M">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DMc-eA-2iV">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Bqb-RL-fbT">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bqb-RL-fbT" id="Wo1-0I-0Ce">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="pz7-sH-EHi"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="DMc-eA-2iV" firstAttribute="leading" secondItem="pz7-sH-EHi" secondAttribute="leading" id="J1L-cj-3jA"/>
-                            <constraint firstItem="DMc-eA-2iV" firstAttribute="top" secondItem="pz7-sH-EHi" secondAttribute="top" id="Y7S-UH-GVo"/>
-                            <constraint firstItem="pz7-sH-EHi" firstAttribute="bottom" secondItem="DMc-eA-2iV" secondAttribute="bottom" id="chx-LL-nY4"/>
-                            <constraint firstItem="pz7-sH-EHi" firstAttribute="trailing" secondItem="DMc-eA-2iV" secondAttribute="trailing" id="t5P-ws-rBv"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="6wf-L4-nkj"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Etg-2F-SZn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2775" y="982"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
